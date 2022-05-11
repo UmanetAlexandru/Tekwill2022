@@ -11,8 +11,5 @@ public class Main {
         } else {
             System.out.println("NO");
         }
-
-        String result = number > 0 ? "YES" : "NO";
-        System.out.println(result);
     }
 }

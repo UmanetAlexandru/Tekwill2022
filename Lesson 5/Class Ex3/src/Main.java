@@ -3,20 +3,25 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        int a = s.nextInt();//1
-        int b = s.nextInt();//3
-        int sum = 0;
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
 
-        for(int i = a;i <= b; i++) {
-            sum += i;
-        }
+//        String st = "You have chosen a ";
+//        switch (i) {
+//            case 1 -> st += "square";
+//            case 2 -> st += "circle";
+//            case 3 -> st += "triangle";
+//            case 4 -> st += "rhombus";
+//            default -> st = "There is no such shape!";
+//        }
 
-        // alta varianta
-        // for(;a <= b; a++) {
-        //  sum += a;
-        // }
-
-        System.out.println(sum);
+        String st = switch (i) {
+            case 1 -> "You have chosen a square";
+            case 2 -> "You have chosen a circle";
+            case 3 -> "You have chosen a triangle";
+            case 4 -> "You have chosen a rhombus";
+            default -> "There is no such shape!";
+        };
+        System.out.println(st);
     }
 }
