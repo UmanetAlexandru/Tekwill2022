@@ -16,6 +16,7 @@ public class Main {
         return res;
     }
 
+    //short version with recursion
 //    public static long factorial(long n) {
 //        return n <= 1 ? 1 : n * factorial(n - 1);
 //    }
