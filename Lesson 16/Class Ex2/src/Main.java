@@ -1,6 +1,6 @@
-import java.util.function.LongUnaryOperator;
-
-class Operator {
-
-    public static LongUnaryOperator unaryOperator = x -> x += x % 2 == 0 ? 2 : 1;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Operator.unaryOperator.applyAsLong(10));
+        System.out.println(Operator.unaryOperator.applyAsLong(11));
+    }
 }

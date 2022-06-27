@@ -1,10 +1,12 @@
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.*;
+import java.util.function.Supplier;
 
-class FunctionUtils {
+public class Main {
+    public static void main(String[] args) {
+        Supplier<Integer> sup1 = FunctionUtils.getInfiniteRange();
 
-    public static Supplier<Integer> getInfiniteRange() {
-        AtomicInteger i = new AtomicInteger();
-        return i::getAndIncrement;
+        Supplier<Integer> sup2 = FunctionUtils.getInfiniteRange();
+        for(int i = 0; i < 5; i++) {
+            System.out.print(sup1.get() + " " + sup2.get() + " ");
+        }
     }
 }

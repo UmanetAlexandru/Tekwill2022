@@ -1,13 +1,6 @@
-// do not remove imports
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-import java.util.function.Function;
-
-class ArrayUtils {
-    public static <T> String info(T[] arr) {
-        return Arrays.toString(arr);
+public class Main {
+    public static void main(String[] args) {
+        Integer[] ints = {1, 2, 3, 5, 8, 13, 21, 34};
+        System.out.println(ArrayUtils.info(ints));
     }
 }

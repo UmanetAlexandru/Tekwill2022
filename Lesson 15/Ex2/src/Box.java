@@ -1,11 +1,11 @@
 public class Box<T> {
-  private T type;
+    private T type;
 
-  public void put(T type) {
-    this.type = type;
-  }
+    public void put(T type) {
+        this.type = type;
+    }
 
-  public T get() {
-    return this.type;
-  }
+    public T get() {
+        return this.type;
+    }
 }

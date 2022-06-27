@@ -1,6 +1,6 @@
-import java.util.function.IntBinaryOperator;
-
-class Operator {
-
-    public static IntBinaryOperator binaryOperator = Math::max;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Operator.binaryOperator.applyAsInt(10, 20));
+        System.out.println(Operator.binaryOperator.applyAsInt(200, 100));
+    }
 }
