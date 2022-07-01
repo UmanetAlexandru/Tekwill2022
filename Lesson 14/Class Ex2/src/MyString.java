@@ -1,5 +1,5 @@
 public class MyString implements ReversedString {
-    private String str;
+    private final String str;
 
     public MyString(String str) {
         this.str = str;

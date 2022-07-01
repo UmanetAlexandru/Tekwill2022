@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         User user = new User();
         user.setName("John Grant");
-        
+
         BaseEntity userEntity = user;
         userEntity.setId(100);
         userEntity.setVersion(1);

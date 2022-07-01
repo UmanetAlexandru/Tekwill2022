@@ -1,4 +1,5 @@
 abstract class Shape {
-  abstract double getPerimeter();
-  abstract double getArea();
+    abstract double getPerimeter();
+
+    abstract double getArea();
 }

@@ -1,5 +1,5 @@
 public abstract class Parent {
 
-  protected abstract void message();
+    protected abstract void message();
 
 }

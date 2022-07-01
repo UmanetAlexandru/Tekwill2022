@@ -13,7 +13,3 @@ public class Main {
     }
 }
 
-interface SingleMethodInterface {
-
-    void doSomething();
-}

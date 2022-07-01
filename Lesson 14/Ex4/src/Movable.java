@@ -1,3 +1,3 @@
 interface Movable {
-  void move(float dx, float dy);
+    void move(float dx, float dy);
 }

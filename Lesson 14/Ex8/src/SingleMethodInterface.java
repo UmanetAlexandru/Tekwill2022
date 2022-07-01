@@ -1,0 +1,4 @@
+interface SingleMethodInterface {
+
+    void doSomething();
+}

@@ -1,3 +1,3 @@
 public interface Scalable {
-  void scale(float factor);
+    void scale(float factor);
 }

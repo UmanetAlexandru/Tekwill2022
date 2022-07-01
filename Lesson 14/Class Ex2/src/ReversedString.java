@@ -1,3 +1,3 @@
 public interface ReversedString {
-  String reverse();
+    String reverse();
 }

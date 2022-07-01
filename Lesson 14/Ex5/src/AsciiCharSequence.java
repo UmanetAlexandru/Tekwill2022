@@ -25,10 +25,10 @@ public class AsciiCharSequence implements CharSequence {
 
     @Override
     public String toString() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (byte b : arr) {
-            result += (char) b;
+            result.append((char) b);
         }
-        return result;
+        return result.toString();
     }
 }

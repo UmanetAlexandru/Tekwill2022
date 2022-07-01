@@ -10,8 +10,3 @@ public class Circle implements Measurable {
         return Math.PI * radius * radius;
     }
 }
-
-// do not change the interface
-interface Measurable {
-    double area();
-}
