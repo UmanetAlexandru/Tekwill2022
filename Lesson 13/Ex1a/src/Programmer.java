@@ -1,13 +1,13 @@
 public class Programmer extends TeamLead {
-  private int numProgrammer;
+    private int numProgrammer;
 
-  public Programmer(int numProgrammer) {
-    super(numProgrammer);
-    this.numProgrammer = numProgrammer;
-    employ();
-  }
+    public Programmer(int numProgrammer) {
+        super(numProgrammer);
+        this.numProgrammer = numProgrammer;
+        employ();
+    }
 
-  protected void employ() {
-    System.out.println(numProgrammer + " programmer");
-  }
+    protected void employ() {
+        System.out.println(numProgrammer + " programmer");
+    }
 }

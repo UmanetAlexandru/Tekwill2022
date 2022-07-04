@@ -1,5 +1,5 @@
 public class Animal {
-  public void say() {
-    System.out.println("...An incomprehensible sound...");
-  }
+    public void say() {
+        System.out.println("...An incomprehensible sound...");
+    }
 }

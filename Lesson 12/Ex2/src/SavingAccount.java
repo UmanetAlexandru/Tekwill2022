@@ -1,8 +1,8 @@
 public class SavingAccount extends BankAccount {
-  double interestRate;
+    double interestRate;
 
-  public SavingAccount(String number, Long balance, double interestRate) {
-    super(number, balance);
-    this.interestRate = interestRate;
-  }
+    public SavingAccount(String number, Long balance, double interestRate) {
+        super(number, balance);
+        this.interestRate = interestRate;
+    }
 }
