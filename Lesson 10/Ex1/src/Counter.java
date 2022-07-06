@@ -1,15 +1,15 @@
 class Counter {
-  private int current;
+    private int current;
 
-  public Counter(int current) {
-    this.current = current;
-  }
+    public Counter(int current) {
+        this.current = current;
+    }
 
-  public void inc() {
-    current++;
-  }
+    public void inc() {
+        current++;
+    }
 
-  public int getCurrent() {
-    return current;
-  }
+    public int getCurrent() {
+        return current;
+    }
 }

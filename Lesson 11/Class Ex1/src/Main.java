@@ -11,14 +11,9 @@ public class Main {
 
 
         switch (ourDay) {
-            case FRIDAY:
-                System.out.println("It's friday dude!");
-                break;
-            case MONDAY:
-                System.out.println("It's time to go to work!");
-                break;
-            default:
-                System.out.println("Ordinary day!");
+            case FRIDAY -> System.out.println("It's friday dude!");
+            case MONDAY -> System.out.println("It's time to go to work!");
+            default -> System.out.println("Ordinary day!");
         }
     }
 }

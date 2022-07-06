@@ -1,3 +1,3 @@
 public enum ChargeLevel {
-  FULL, HIGH, MEDIUM, LOW
+    FULL, HIGH, MEDIUM, LOW
 }

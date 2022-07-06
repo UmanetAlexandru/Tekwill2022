@@ -2,13 +2,13 @@ public enum DangerLevel {
     HIGH(3),
     MEDIUM(2),
     LOW(1);
-    private final int dangerLevel;
+    private final int level;
 
-    DangerLevel(int dangerLevel) {
-        this.dangerLevel = dangerLevel;
+    DangerLevel(int level) {
+        this.level = level;
     }
 
     public int getLevel() {
-        return dangerLevel;
+        return level;
     }
 }

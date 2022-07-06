@@ -10,7 +10,5 @@ public class Main {
         c2.display();
         c2.next();//12:01
         c2.display();
-
-        
     }
 }
