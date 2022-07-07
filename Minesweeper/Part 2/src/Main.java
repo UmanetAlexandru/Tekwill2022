@@ -9,7 +9,7 @@ public class Main {
         System.out.print("How many mines do you want on the field? ");
         int nrOfMines = scanner.nextInt();
 
-        char[][] matrix = fillMatrixWithDots('.', 20);
+        char[][] matrix = fillMatrixWithDots('.', 9);
 
         generateNMines(matrix, nrOfMines);
 
