@@ -10,32 +10,4 @@ public class Rectangle extends Polygon {
         vertices = new Point[]{topLeftCorner, topRightCorner, bottomRightCorner, bottomLeftCorner};
     }
 
-
-    @Override
-    public void moveUp(int distance) {
-        for (Point vertex : vertices) {
-            vertex.setY(vertex.getY() + distance);
-        }
-    }
-
-    @Override
-    public void moveDown(int distance) {
-        for (Point vertex : vertices) {
-            vertex.setY(vertex.getY() - distance);
-        }
-    }
-
-    @Override
-    public void moveLeft(int distance) {
-        for (Point vertex : vertices) {
-            vertex.setX(vertex.getX() - distance);
-        }
-    }
-
-    @Override
-    public void moveRight(int distance) {
-        for (Point vertex : vertices) {
-            vertex.setX(vertex.getX() + distance);
-        }
-    }
 }

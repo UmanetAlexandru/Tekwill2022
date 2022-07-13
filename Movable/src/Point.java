@@ -35,6 +35,22 @@ public class Point {
         this.y = y;
     }
 
+    public void moveRight(int distance) {
+        x += distance;
+    }
+
+    public void moveUp(int distance) {
+        y += distance;
+    }
+
+    public void moveLeft(int distance) {
+        x -= distance;
+    }
+
+    public void moveDown(int distance) {
+        y -= distance;
+    }
+
     @Override
     public String toString() {
         return "<" + x + ":" + y + ">";

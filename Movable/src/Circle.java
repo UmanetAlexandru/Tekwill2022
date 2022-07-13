@@ -17,21 +17,21 @@ public class Circle implements Movable {
 
     @Override
     public void moveUp(int distance) {
-        point.setY(point.getY() + distance);
+        point.moveUp(distance);
     }
 
     @Override
     public void moveDown(int distance) {
-        point.setY(point.getY() - distance);
+        point.moveDown(distance);
     }
 
     @Override
     public void moveLeft(int distance) {
-        point.setX(point.getX() - distance);
+        point.moveLeft(distance);
     }
 
     @Override
     public void moveRight(int distance) {
-        point.setX(point.getX() + distance);
+        point.moveRight(distance);
     }
 }
