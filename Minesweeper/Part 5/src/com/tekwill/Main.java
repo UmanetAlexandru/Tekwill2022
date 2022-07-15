@@ -23,11 +23,18 @@ public class Main {
 
             if (action.equals(MINE)) {
                 finished = game.putFlag(x, y);
+                if(finished) {
+                    System.out.println("Congratulations! You found all mines!");
+                }
+                System.out.println(game);
             } else {
                 finished = game.open(x, y);
+                if(finished) {
+                    System.out.println("You stepped on a mine and failed!");
+                }
             }
 
-            System.out.println(game);
+
         }
     }
 

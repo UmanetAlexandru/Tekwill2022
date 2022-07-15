@@ -1,4 +1,4 @@
-public abstract class Polygon implements Movable {
+public abstract class Polygon implements Movable, Scalable {
     protected Point[] vertices;
 
     @Override

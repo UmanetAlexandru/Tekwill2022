@@ -1,6 +1,6 @@
-public class Circle implements Movable {
+public class Circle implements Movable, Scalable {
     private final Point point;
-    private final int radius;
+    private int radius;
 
     public Circle(Point point, int radius) {
         this.point = point;
@@ -33,5 +33,10 @@ public class Circle implements Movable {
     @Override
     public void moveRight(int distance) {
         point.moveRight(distance);
+    }
+
+    @Override
+    public void scale(int scale) {
+        radius *= scale;
     }
 }

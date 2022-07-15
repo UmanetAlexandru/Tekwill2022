@@ -31,7 +31,6 @@ public class Game {
         }
 
         if (isMine(coords)) {
-            System.out.println("You stepped on a mine and failed!");
             showAllMines();
             return true;
         }
@@ -145,7 +144,6 @@ public class Game {
             flags.add(coords);
         }
 
-        //TODO check if all the mines are flagged
-        return false;
+        return flags.equals(mines);
     }
 }
